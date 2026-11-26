@@ -1,8 +1,3 @@
-streamlit>=1.40,<2
-yfinance>=0.2.58,<2
-pandas>=2.2,<4
-altair>=5,<7
-
 """Robot A : 100 titres, TP/SL configurables, 100 % FICTIF, aucun acces au courtier.
 
 Conserve portefeuille_fictif.json (positions et historique anciens).
@@ -1076,6 +1071,3 @@ def mettre_a_jour():
 
 
 mettre_a_jour()
-
-
-
