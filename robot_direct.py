@@ -1077,37 +1077,5 @@ def mettre_a_jour():
 
 mettre_a_jour()
 
-ROBOT A — ESSAI GRATUIT SUR STREAMLIT COMMUNITY CLOUD
 
-MODELE : démonstration 100 % fictive sans aucun courtier connecté.
-La version cloud gratuite sert à tester l'ouverture du tableau sur PC/téléphone.
-Elle ne garantit PAS une surveillance continue avec PC éteint : lorsque
-l'application dort (12 heures sans trafic selon Streamlit), les mises à jour
-et les simulations s'arrêtent. Elles reprennent lorsque la page est ouverte.
 
-IMPORTANT : LES DONNEES LOCALES CLOUD PEUVENT ETRE EFFACEES.
-Le portefeuille sur Streamlit Community Cloud est distinct de celui sur ton PC.
-N'envoie jamais les fichiers portefeuille_fictif.json, parametres_robot.json,
-etat_robot.json, secrets.toml, mots de passe ou identifiants bancaires sur GitHub.
-La démo repart avec 5 000 $ fictifs, en PAUSE initiale. Pour réaliser des
-transactions fictives pendant une séance, activer la reprise dans la barre latérale.
-Lorsque l'application se met en veille, aucune opération n'est simulée.
-Tu peux exporter une copie du portefeuille de démo depuis la barre latérale.
-
-ETAPES :
-1. Créer un compte sur https://github.com/ si nécessaire.
-2. Créer un dépôt *PRIVE* "robot-a-demo".
-3. Mettre les fichiers du contenu de ce dossier dans le dépôt :
-   robot_direct.py, requirements.txt, .streamlit/config.toml, .gitignore.
-   Ne mettre AUCUN fichier JSON de données personnelles/portefeuille.
-4. Aller sur https://share.streamlit.io/ et se connecter avec GitHub.
-   Autoriser l'accès au dépôt privé si demandé.
-5. Créer une nouvelle application : sélectionner dépôt robot-a-demo,
-   branche main et fichier principal robot_direct.py.
-   Dans les paramètres avancés, choisir Python 3.12 par compatibilité.
-6. Déployer, puis consulter l'URL HTTPS .streamlit.app depuis le téléphone.
-7. Garder le mode pause au début; vérifier les 100 actions et les graphiques.
-
-Si tu veux un jour des transactions fictives réellement continues et durables,
-il faudra une tâche serveur indépendante et une base de données persistante.
-Ton PC et ta clé USB restent les sauvegardes de référence.
